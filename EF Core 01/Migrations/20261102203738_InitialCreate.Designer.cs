@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EF_Core_01.Migrations
 {
-    [DbContext(typeof(BookStoreContext))]
+    [DbContext(typeof(EventHubContext))]
     [Migration("20261102203738_InitialCreate")]
     partial class InitialCreate
     {
